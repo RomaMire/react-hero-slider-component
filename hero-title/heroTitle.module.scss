@@ -1,0 +1,28 @@
+.hero_title {
+	&__heading {
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		bottom: 10%;
+		left: 50%;
+		transform: translate(-50%, 0%);
+		color: white;
+		h1 {
+			font-size: 5rem;
+		}
+		p {
+			font-size: 1.5rem;
+		}
+
+		z-index: 5;
+
+		button {
+			color: white;
+			background-color: transparent;
+			border: 1px solid white;
+			margin: 3rem;
+		}
+	}
+}
